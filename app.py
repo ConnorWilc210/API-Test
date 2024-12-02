@@ -16,11 +16,11 @@ import signal
 import sys
 from types import FrameType
 
-from flask import Flask
+from fastapi import FastAPI
 
 from utils.logging import logger
 
-app = Flask(__name__)
+app = FastAPI()
 
 
 @app.route("/")
@@ -55,3 +55,4 @@ if __name__ == "__main__":
 else:
     # handles Cloud Run container termination
     signal.signal(signal.SIGTERM, shutdown_handler)
+
