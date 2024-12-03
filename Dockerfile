@@ -17,7 +17,7 @@ FROM python:3.10.6-slim
 ENV PYTHONUNBUFFERED 1
 
 # Create and change to the app directory.
-WORKDIR /usr/src/app
+WORKDIR C:\Users\conno\Documents\GitHub\API-Test
 
 # Copy application dependency manifests to the container image.
 # Copying this separately prevents re-running pip install on every code change.
