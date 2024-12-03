@@ -1,8 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\services\\frontend\\src"
+    ""
   ],
-  "SelectedNode": "\\Dockerfile",
+  "SelectedNode": "\\app.py",
   "PreviewInSolutionExplorer": false
 }

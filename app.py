@@ -22,8 +22,10 @@ from utils.logging import logger
 
 app = FastAPI()
 
-
 @app.route("/")
+
+
+
 def hello() -> str:
     # Use basic logging with custom fields
     logger.info(logField="custom-entry", arbitraryField="custom-entry")
